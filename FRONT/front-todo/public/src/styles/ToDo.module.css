@@ -1,0 +1,90 @@
+.mainContainer {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.projectTitle {
+  font-size: 4rem;
+  color: white;
+}
+
+.buttonToDO {
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.buttonAdd {
+  background-color: hsl(125, 47%, 54%);
+}
+
+.buttonAdd:hover {
+  background-color: hsl(125, 47%, 54%);
+}
+
+.deleteButton {
+  background-color: hsl(10, 90%, 50%);
+}
+
+.deleteButton:hover {
+  background-color: hsl(10, 90%, 50%);
+}
+
+.upButton {
+  background-color: hsl(207, 90%, 64%);
+}
+
+.upButton:hover {
+  background-color: hsl(207, 72%, 55%);
+}
+
+.downButton {
+  background-color: hsl(208, 25%, 80%);
+}
+
+.downButton:hover {
+  background-color: hsl(209, 9%, 52%);
+}
+
+.inputText {
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid hsla(0, 0%, 80%, 0.5);
+  border-radius: 5px;
+  color: hsl(0, 0%, 0%);
+}
+
+.list {
+  padding: 0;
+}
+
+.listItem {
+  max-width: 800px; /* Imposta la larghezza massima desiderata */
+  margin: 0 auto; /* Centra il contenuto orizzontalmente */
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color: hsl(0, 0%, 97%);
+  margin-bottom: 10px;
+  border: 3px solid hsl(0, 0%, 85%, 0.75);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  flex: 1;
+  color: black;
+}
+
+.downButton, .upButton {
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
+}
